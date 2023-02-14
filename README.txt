@@ -1,5 +1,5 @@
 # Git-commands
-========================
+
 
 $ git config --global user.name "Ваше Имя"
 $ git config --global user.email "ВашаПочта@mail.com"
