@@ -6,14 +6,13 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Senior-Pomidorr/test.git
+git remote add origin https://github.com/имяПользователя/проект.git
 git push -u origin main
 
 …or push an existing repository from the command line
-it remote add origin https://github.com/Senior-Pomidorr/test.git
+it remote add origin https://github.com/имяПользователя/проект.git
 git branch -M main
 git push -u origin main
-
 
 $ git config --global user.name "Ваше Имя"
 $ git config --global user.email "ВашаПочта@mail.com"
@@ -54,6 +53,9 @@ $ git show название коммита
 
 $ git checkout “названиеВетки или коммита”
 //Перключает в указанный коммит или ветку, смотря что указывать. Позволит Вам переключить контроль над созданной Вами веткой и работать в её пределах. Здесь Вы можете совершать любые изменения кода. Когда Вы будете готовы можно совершить commit изменений и отправить изменения в GitHub (об этом ниже) или же можно удалить ветвь, если что-то пошло не так или Вам больше не нужны изменения сделанные в этой ветке.
+
+$ git rm -- cached -r .
+// Удаляет отслеживание файлов индексации из Stage Area.
 
 $ touch .gitignore
 //Эта команда создаст файл с названием .gitignore. Вы можете открыть этот файл в текстовом редакторе и прописать названия файлов или директорий, изменения в которых Вы не хотели бы отслеживать (они будут игнорироваться Git). Изменения в игнорируемых файлах не будут отображаться при выполнении git status.
