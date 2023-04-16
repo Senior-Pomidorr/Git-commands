@@ -1,7 +1,5 @@
 # Git-commands
 
-# Git-commands
-
 …Create a new repository on the command line
 echo "# test" >> README.md
 git init
