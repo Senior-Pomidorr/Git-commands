@@ -133,6 +133,6 @@ $ git config --global user.email "ВашаПочта@mail.com"
  команда help
 //Краткий help по команде.
 
-
+![picture1.](8ogqpfkvqqpyfbs3w6p7.webp)
 
 
