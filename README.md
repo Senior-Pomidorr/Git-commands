@@ -10,13 +10,13 @@ git branch -M main
 git remote add origin https://github.com/имяПользователя/проект.git   
 git push -u origin main  
 
-…or push an existing repository from the command line
-it remote add origin https://github.com/имяПользователя/проект.git
-git branch -M main
-git push -u origin main
+…or push an existing repository from the command line  
+it remote add origin https://github.com/имяПользователя/проект.git  
+git branch -M main  
+git push -u origin main  
 
-* git config --global user.name "Ваше Имя"
-$ git config --global user.email "ВашаПочта@mail.com"
+* git config --global user.name "Ваше Имя"  
+$ git config --global user.email "ВашаПочта@mail.com"  
 //Эти команды определят информацию, которая будет использоваться при каждом commit(фиксировании изменений). Их стоит выполнить всего один раз при первичной установке Git.
 
 * git init 
