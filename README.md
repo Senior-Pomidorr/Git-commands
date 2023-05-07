@@ -1,7 +1,7 @@
 # Git Commands
 
 
-…Create a new repository on the command line
+Create a new repository on the command line
 -------------------------
 * git init  
 * git add README.md  
