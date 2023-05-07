@@ -1,4 +1,4 @@
-# Git Commands.
+# Git Commands
 
 
 …Create a new repository on the command line
