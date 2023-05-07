@@ -133,8 +133,8 @@ Commands
 
 Git config 
 -------------------------
- > git config --global user.name "Ваше Имя"     
- > git config --global user.email "ВашаПочта@mail.com"  
+ > git config --global user.name "Your Name"     
+ > git config --global user.email "YourMail@mail.com"  
 // Эти команды определят информацию, которая будет использоваться при каждом commit. Их стоит выполнить всего один раз при первичной установке Git.
 
 
