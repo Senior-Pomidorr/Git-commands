@@ -4,7 +4,7 @@
 Create a new repository on the command line
 -------------------------
 * git init  
-* git add README.md  
+* git add .  
 * git commit -m "first commit"   
 * git branch -M main  
 * git remote add origin https://github.com/имяПользователя/проект.git   
