@@ -98,43 +98,43 @@ Commands
 * git remote
 // Lists all remote repositories that have been added to your project.
 
-git remote show -n name
+* git remote show -n name
 // to view information in a remote repository, use the same command, but with a name. The -n option is used to not establish a connection with the repository itself when executing the command, but to use only locally cached information.
 
-git push -u origin master
+* git push -u origin master
 // This command will push the local changes to the remote repository. Thus, this command should be registered only the first time.
 
-git push
+* git push
 // submits your project with all changes to GitHub
 
-git push --delete origin branch name
+* git push --delete origin branch name
 // Deleting the branch we pushed to the remote repository
 
-git push -all
+* git push -all
 // Push all branches to the remote repository
 
-git clone https://github.com/username/project.git
+* git clone https://github.com/username/project.git
 // If you do not have a project on your personal or work computer, then this command will clone/download the entire project into the current directory.
 
-git-pull
+* git-pull
 // If you are working on the same project with multiple people, this command will download the latest version from the remote repository and update your local version.
 
-rm README.txt
+* rm README.txt
 // Delete file.
 
-mkdir directory name
+* mkdir directory name
 // Creates a new directory
 
-githelp
+* githelp
 // Calls up help
 
-help command
+* help command
 // Brief help on the command.
 
 Git config
 
-git config --global user.name "Your Name"
-git config --global user.email "yourmail@mail.com"
+* git config --global user.name "Your Name"
+* git config --global user.email "yourmail@mail.com"
 // These commands will define the information that will be used on each commit. You only need to run them once during your first Git installation.
 
 ![picture1.](git.jpg)
