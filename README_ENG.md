@@ -132,6 +132,7 @@ Commands
 // Brief help on the command.
 
 Git config
+------------------------
 
 * git config --global user.name "Your Name"
 * git config --global user.email "yourmail@mail.com"
