@@ -138,5 +138,6 @@ Git config
 * git config --global user.email "yourmail@mail.com"
 // These commands will define the information that will be used on each commit. You only need to run them once during your first Git installation.
 
+
 ![picture1.](git.jpg)
 
