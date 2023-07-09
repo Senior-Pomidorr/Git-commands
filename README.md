@@ -38,7 +38,7 @@ Commands
 * git rm --cached имяФайла.расширение  
 // Убирает файл из staging area и определяет его как игнорируемый.
 
-* git restore
+* git restore   
 // Вовзращает удаленный файл.
 
 * git commit -m "Описание коммита"  
