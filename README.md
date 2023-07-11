@@ -59,7 +59,7 @@ Commands
 * git log -p   
 // Показывает разницу в каждом коммите
 
-* git log --oneline
+* git log --oneline   
 // Показывает сокращенный вывод коммитов.
 
 * git show название коммита  
